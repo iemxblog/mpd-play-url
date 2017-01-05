@@ -21,7 +21,7 @@ executable mpd-play-url
   -- other-modules:       
   -- other-extensions:    
   build-depends:       
-    base >=4.9 && <4.10,
+    base >=4.6 && <4.10,
     scotty,
     text,
     process,
