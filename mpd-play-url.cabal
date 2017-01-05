@@ -22,6 +22,9 @@ executable mpd-play-url
   -- other-extensions:    
   build-depends:       
     base >=4.9 && <4.10,
-    scotty
+    scotty,
+    text,
+    process,
+    mtl
   hs-source-dirs:      src
   default-language:    Haskell2010
